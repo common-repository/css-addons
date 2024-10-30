@@ -1,0 +1,49 @@
+
+
+/** CUSTOMIZATION **/
+.css-addons-textarea{
+    display:none;
+}
+
+.css-addons-list li{
+    position:relative;
+    padding-left:20px;
+}
+.css-addons-list input{
+    position:absolute;
+    top:4px;
+    left:2px;
+}
+.css-addons-list h4,.css-addons-list p,.css-addons-list span{
+    display:block;
+    margin:0 0.4em;
+}
+.css-addons-list span{
+    color:#AAA;
+}
+/** Thickbox **/
+#TB_ajaxContent .CodeMirror pre{
+    padding: 0 32px;
+}
+
+#css-addons-form a.thickbox{
+    display: inline-block;
+    width: 400px;
+    position: relative;
+    white-space: nowrap;
+}
+#css-addons-form a.thickbox code{
+    display: inline-block;
+    width: 390px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.cssaddons-multi-box{
+    display:none;
+}
+.cssaddons-box-wrapper, .cssaddons-box-wrapper textarea, .cssaddons-box-wrapper .CodeMirror{
+    width: 600px;
+    height: 495px;
+    margin: 0;
+    padding: 0;
+}
